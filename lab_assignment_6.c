@@ -3,8 +3,9 @@
 int search(int numbers[], int low, int high, int value)
 {
     int mid;
-    if (low = high)
-    {   mid = (low+high)/2;
+    if (low == high)
+    {
+         mid = (low+high)/2;
         return mid;
     }
     if (low < high)
